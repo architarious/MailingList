@@ -4,7 +4,7 @@
 
 <h2>Features</h2>
 <ul>
-<li>Subscribe to mailing list</li>
-<li>Subtract emails</li>
-<li>Sends basic message to those on mailing list</li>
+<li>public: Subscribe to mailing list</li>
+<li>private: Subtract emails from list</li>
+<li>private: Send basic message to those on mailing list</li>
 </ul>
