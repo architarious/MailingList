@@ -3,21 +3,25 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-  <title>Make Me Elvis - Add Email</title>
+  <title>Mailing List - Get on our list!</title>
   <link rel="stylesheet" type="text/css" href="style.css" />
 </head>
 <body>
-  <img src="blankface.jpg" width="161" height="350" alt="" style="float:right" />
-  <img name="elvislogo" src="elvislogo.gif" width="229" height="32" border="0" alt="Make Me Elvis" />
-  <p>Enter your first name, last name, and email to be added to the <strong>Make Me Elvis</strong> mailing list.</p>
-  <form method="post" action="addemail.php">
-    <label for="firstname">First name:</label>
-    <input type="text" id="firstname" name="firstname" /><br />
-    <label for="lastname">Last name:</label>
-    <input type="text" id="lastname" name="lastname" /><br />
-    <label for="email">Email:</label>
-    <input type="text" id="email" name="email" /><br />
-    <input type="submit" name="Submit" value="Submit" />
+<div id="wrapper">
+  <h1 class="form-header">Join on our mailing list!</h1>
+  
+  <form class="form-container" method="post" action="addemail.php">
+
+    <label  for="firstname" class="form-title">First name:</label><br />
+    <input type="text" id="firstname" name="firstname" class="form-field" /><br />
+    <label for="lastname" class="form-title">Last name:</label><br />
+    <input type="text" id="lastname" name="lastname" class="form-field" /><br />
+    <label for="email" class="form-title">Email:</label><br />
+    <input type="text" id="email" name="email" class="form-field" /><br />
+    <div class="submit-container">
+      <input class="submit-button" type="submit" value="Submit" />
+    </div>
   </form>
+</div>
 </body>
 </html>

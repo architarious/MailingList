@@ -2,3 +2,147 @@ body, td, th {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 12px;
 }
+
+body{
+	background:#343436;
+	
+	margin:0;
+	padding:0;
+}
+
+body.private{
+	border-top:#F73B43 3px solid;
+}
+span.private{
+	font-size: 155px;
+	font-weight: bold;
+	text-align: center;
+	width: 100%;
+	float: left;
+	margin-top: 4%;
+	text-shadow: 0 2px 2px #555;
+	color: #212121;
+}
+#wrapper{
+	max-width:500px;
+	margin:0 auto;
+	margin-top:20%;
+
+}
+h1.form-header{
+	text-transform:uppercase;
+	margin-bottom:0.8em;
+	width:100%;
+	color:#f7ede1;
+	clear:both;
+	text-shadow: 0 1px 2px #234;
+	text-align:center;
+	font-size:32px;
+	letter-spacing:1px;
+}
+
+.form-container {
+   border: 1px solid #443F5F;
+   background: #373545;
+   background: -webkit-gradient(linear, left top, left bottom, from(#75718f), to(#373545));
+   background: -webkit-linear-gradient(top, #75718f, #373545);
+   background: -moz-linear-gradient(top, #75718f, #373545);
+   background: -ms-linear-gradient(top, #75718f, #373545);
+   background: -o-linear-gradient(top, #75718f, #373545);
+   background-image: -ms-linear-gradient(top, #75718f 0%, #373545 100%);
+   -webkit-border-radius: 3px;
+   -moz-border-radius: 3px;
+   border-radius: 3px;
+   -webkit-box-shadow: rgba(000,000,000,0.9) 0 1px 2px, inset rgba(255,255,255,0.4) 0 1px 0;
+   -moz-box-shadow: rgba(000,000,000,0.9) 0 1px 2px, inset rgba(255,255,255,0.4) 0 1px 0;
+   box-shadow: rgba(000,000,000,0.9) 0 1px 2px, inset rgba(255,255,255,0.4) 0 1px 0;
+   font-family: 'Helvetica Neue',Helvetica,sans-serif;
+   text-decoration: none;
+   vertical-align: middle;
+   min-width:300px;
+   padding:5%;
+   width:90%;
+   }
+.form-field {
+   border: 1px solid #635a50;
+   background: #f7ede1;
+   -webkit-border-radius: 4px;
+   -moz-border-radius: 4px;
+   border-radius: 4px;
+   color: #ada79f;
+   -webkit-box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(000,000,000,0.7) 0 0px 0px;
+   -moz-box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(000,000,000,0.7) 0 0px 0px;
+   box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(000,000,000,0.7) 0 0px 0px;
+   padding:8px;
+   margin-bottom:20px;
+   width:76%;
+   }
+
+.form-field:focus {
+   background: #fff;
+   color: #2b1e10;
+   }
+.form-container h2 {
+   text-shadow: #75718f 0 1px 0;
+   font-size:18px;
+   margin: 0 0 10px 0;
+   font-weight:bold;
+   text-align:center;
+    }
+
+label.form-title{
+	color:#AFAEB6;
+	text-shadow: #75718f 0 1px 0;
+	margin-bottom:10px;
+}
+.submit-container {
+   margin:8px 0;
+   text-align:right;
+   }
+.submit-button {
+   border: 4px solid #34314f;
+   background: #050314;
+   background: -webkit-gradient(linear, left top, left bottom, from(#110b3b), to(#050314));
+   background: -webkit-linear-gradient(top, #110b3b, #050314);
+   background: -moz-linear-gradient(top, #110b3b, #050314);
+   background: -ms-linear-gradient(top, #110b3b, #050314);
+   background: -o-linear-gradient(top, #110b3b, #050314);
+   background-image: -ms-linear-gradient(top, #110b3b 0%, #050314 100%);
+   -webkit-border-radius: 6px;
+   -moz-border-radius: 6px;
+   border-radius: 6px;
+   -webkit-box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(255,255,255,0.4) 0 1px 0;
+   -moz-box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(255,255,255,0.4) 0 1px 0;
+   box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(255,255,255,0.4) 0 1px 0;
+   text-shadow: #07060f 0 1px 0;
+   color: #8580ad;
+   font-family: helvetica, serif;
+   padding: 8.5px 18px;
+   font-size: 14px;
+   text-decoration: none;
+   vertical-align: middle;
+   }
+.submit-button:hover {
+   border: 4px solid #447314;
+   text-shadow: #31540c 0 1px 0;
+   background: #6aa436;
+   background: -webkit-gradient(linear, left top, left bottom, from(#8dc059), to(#6aa436));
+   background: -webkit-linear-gradient(top, #8dc059, #6aa436);
+   background: -moz-linear-gradient(top, #8dc059, #6aa436);
+   background: -ms-linear-gradient(top, #8dc059, #6aa436);
+   background: -o-linear-gradient(top, #8dc059, #6aa436);
+   background-image: -ms-linear-gradient(top, #8dc059 0%, #6aa436 100%);
+   color: #fff;
+   }
+.submit-button:active {
+   text-shadow: #31540c 0 1px 0;
+   border: 4px solid #447314;
+   background: #8dc059;
+   background: -webkit-gradient(linear, left top, left bottom, from(#6aa436), to(#6aa436));
+   background: -webkit-linear-gradient(top, #6aa436, #8dc059);
+   background: -moz-linear-gradient(top, #6aa436, #8dc059);
+   background: -ms-linear-gradient(top, #6aa436, #8dc059);
+   background: -o-linear-gradient(top, #6aa436, #8dc059);
+   background-image: -ms-linear-gradient(top, #6aa436 0%, #8dc059 100%);
+   color: #fff;
+   }

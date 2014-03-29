@@ -3,20 +3,27 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-  <title>Make Me Elvis - Send Email</title>
+  <title>Send out mailing list</title>
   <link rel="stylesheet" type="text/css" href="style.css" />
 </head>
-<body>
-  <img src="blankface.jpg" width="161" height="350" alt="" style="float:right" />
-  <img name="elvislogo" src="elvislogo.gif" width="229" height="32" border="0" alt="Make Me Elvis" />
-  <p><strong>Private:</strong> For Elmer's use ONLY<br />
-  Write and send an email to mailing list members.</p>
-  <form method="post" action="sendemail.php">
-    <label for="subject">Subject of email:</label><br />
-    <input id="subject" name="subject" type="text" size="30" /><br />
-    <label for="elvismail">Body of email:</label><br />
-    <textarea id="elvismail" name="elvismail" rows="8" cols="40"></textarea><br />
-    <input type="submit" name="Submit" value="Submit" />
+<body class="private">
+
+<span class="private">PRIVATE</span>
+
+<div id="wrapper" class="mailer">
+
+  <h1 class="form-header">Mailing list Mailer</h1>
+  <form method="post" action="sendemail.php" class="form-container">
+    <label for="subject" class="form-title">Subject of email:</label><br />
+    <input id="subject" name="subject" type="text" class="form-field"  /><br />
+    <label for="text" class="form-title">Body of email:</label><br />
+    <textarea id="text" type="text" name="text" rows="8" class="form-field"></textarea><br />
+    
+    <div class="submit-container">
+      <input class="submit-button" type="submit" value="Go!" />
+    </div>
   </form>
+
+</div>
 </body>
 </html>
